@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.sqlite
+/container/node_modules
+/mfe-pay-premium/node_modules
+/mfe-check-details/node_modules
+/.vs/ClientArchitectureMFE/FileContentIndex

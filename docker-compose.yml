@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  container:
+    build:
+      context: ./container
+    ports:
+      - '3000:80'
+    container_name: container
+
+  mfe-check-details:
+    build:
+      context: ./mfe-check-details
+    ports:
+      - '3001:80'
+    container_name: mfe-check-details
+
+  mfe-pay-premium:
+    build:
+      context: ./mfe-pay-premium
+    ports:
+      - '3002:80'
+    container_name: mfe-pay-premium
