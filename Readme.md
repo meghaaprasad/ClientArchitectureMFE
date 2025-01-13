@@ -31,8 +31,8 @@ The application can be run either using **Node.js locally** or with **Docker Com
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-repo/vue-mfe-insurance.git
-cd vue-mfe-insurance
+git clone https://github.com/meghaaprasad/ClientArchitectureMFE.git
+
 ```
 
 ### 2. Install Dependencies for Each App
